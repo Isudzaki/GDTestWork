@@ -84,7 +84,7 @@ public class Enemie : MonoBehaviour
         else
         {
             agent.speed = AgentNormalSpeed;
-
+            inRange = false;
             agent.isStopped = false;
             agent.SetDestination(SceneManager.Instance.Player.transform.position);
         }
