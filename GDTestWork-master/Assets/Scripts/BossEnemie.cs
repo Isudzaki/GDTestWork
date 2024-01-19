@@ -16,7 +16,6 @@ public class BossEnemie : Enemie
             Instantiate(goblin, miniGoblinsSpawnPosition[i].position, Quaternion.identity);
             Debug.Log("Boss");
         }
-        Config.Waves[curr]
 
 
         base.Die();
